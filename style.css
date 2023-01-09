@@ -1,21 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu&display=swap");
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Ubuntu","sans-serif";
+
+
+:root {
+    --color-primary: #ee3425;
+    --color-primary-1: #ee3425;
+    --color-primary-2: #ee3425;
+    --color-secondary: #fbdc00;
+    --color-secondary-1: #ebbe00;
+    --font-color: #434343;
+    --font-color-heading: #000;
+    --font-color-link: var(--color-primary);
+    --font-family: "PT Sans",sans-serif;
+    --font-family-heading: "Ubuntu",sans-serif;
+    --font-size-xl: 18px;
+    --font-size-lg: 16px;
+    --font-size-md: 14px;
+    --font-size-sm: 12px;
+    --font-size-xs: 10px;
+    --line-height: 1.5;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height);
+    color: var(--font-color);
+    -webkit-font-smoothing: antialiased;
+  }
+  
+div {
+    display: block;
 }
 
 .nav_bar{
     background-color: #fbdc00;
-    font-size: 14px;
+    /* font-size: 14px; */
     padding: 0.6rem 6.5rem;
 }
 
 .nav_content{
     display: flex;
     justify-content: space-between;
-    font-weight: 600;
+    font-weight:600;
     margin: auto;
 }
 
