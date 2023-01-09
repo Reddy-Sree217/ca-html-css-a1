@@ -12,4 +12,56 @@
     padding: 0.6rem 6.5rem;
 }
 
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin: auto;
+}
+
+.logo{
+    display: flex;
+}
+
+#logo_img{
+    width: 8rem;
+}
+
+.nav_opts_list{
+    display: flex;
+    padding: 0.5rem;
+}
+
+
+.nav_options > ul > li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+
+.login_signUp{
+    display: flex;
+    align-items: center;
+}
+
+.login_signUp > div{
+    padding: 0.8rem;
+}
+
+#login_icon{
+    font-size: 1.1rem;
+}
+
+.signUp{
+    padding: 0.5rem 0.8rem;
+    border: 1px solid red;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+
 
