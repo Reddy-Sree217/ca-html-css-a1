@@ -89,5 +89,154 @@ div {
 
 
 
-
+.main-banner {
+    background-color: #fbdc00;
+    display: flex;
+    flex-direction: column;
+    padding: 0 7rem;
+  }
+  .banner-heading {
+    margin-top: 8rem;
+  }
+  .main-banner {
+    display: flex;
+    flex-direction: row;
+  }
+  .main-banner .banner-heading {
+    width: 50%;
+  }
+  .main-banner .banner-image {
+    width: 50%;
+  }
+  .main-banner .headline {
+    font-weight: 800;
+    font-size: 40px;
+    margin: 1rem 0;
+  }
+  .main-banner .information {
+    width: 70%;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    color: #434343;
+    font-weight: 300;
+    margin: 0.5rem 0;
+  }
+  .main-banner .person-image {
+    width: 100%;
+  }
+  .main-banner .get-started {
+    background-color: red;
+    padding: 0.6rem 2.5rem;
+    color: white;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    font-weight: 700;
+    margin: 1rem 0rem;
+  }
+  .stats {
+    padding: 0.6rem 6.5rem;
+  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+  .stat {
+    color: red;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0.6rem 0rem;
+  }
+  .stats div {
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .steps-banner {
+    padding: 0rem 6.5rem;
+    margin-top: 4rem;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fffef2;
+  }
+  .steps-banner .banner-heading {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  .steps-banner .banner-info {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  
+  .steps-banner .banner-text {
+    width: 50%;
+  }
+  .steps-banner .banner-image {
+    width: 50%;
+  }
+  .supply-banner-image {
+    width: 90%;
+  }
+  
+  .products {
+    padding: 0rem 6.5rem;
+    border: 1px solid red;
+    background-color: #fffef2;
+  }
+  .products-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 2rem 0;
+  }
+  .product-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  .product-section-text {
+    width: 30%;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 2rem;
+    padding-left: 0;
+  }
+  .product-section-cards {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    background-color: white;
+    width: 11rem;
+    padding: 1.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem 0.8rem;
+    align-items: center;
+  }
+  .card:hover {
+    border: 1px solid red;
+  }
+  .card-image {
+    width: 6rem;
+  }
+  .card-text {
+    margin-top: 2rem;
+    color: red;
+  }
+  
 
