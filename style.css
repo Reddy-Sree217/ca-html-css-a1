@@ -185,7 +185,7 @@ div {
   
   .products {
     padding: 0rem 6.5rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #fffef2;
   }
   .products-heading {
